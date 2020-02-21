@@ -1,0 +1,209 @@
+<!-- On laisse le contenu de cette page inchangé pour l'instant. Vous voyez par ailleurs dans votre navigateur que (probablement) celui-ci sait la lire, car il est paramétré pour lire du HTML.
+
+Toutefois, il faut ajouter les mentions habituelles. Faire un copier-coller du DOCTYPE en première ligne, ajouter correctement les balises html, head et body. A vous de jouer ! -->
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<title>Mémo typographique</title>
+<meta name="description" content="Mémo typographique">
+<meta name="author" content"Juliette Bruyant">
+<meta name="keywords" content="raccourcis clavier, Windows, allemand, français">
+<meta name="viewport" content="width="device-width, initial-scale="1.0">
+
+<!--La balise "style" qui suit permet d'introduire des règles CSS pour le fichier. Elle est insérée ici mais peut, et même doit idéalement, être placée dans un fichier séparé. Cela étant, pour des fichiers courts, ce n'est pas si important! Cette partie "style" décrit la façon de représenter les contenus à l'cran. -->
+<style type="text/css">
+	
+	h1{
+		text-align: center;   <!-- centrer sur la page le texte des titres de niveau h1  -->
+		font-size:35px;      	<!-- taille de la police choisie pour les titres h1 -->
+	}
+	body {
+		color: #404040;
+		background-color:   #fcfbfb  ;
+		font-size: 16px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-family: sans-serif;
+		}
+	caption {
+	font-size: 20px;
+	padding-bottom: 10px;
+	}
+	td, th{
+		border: solid 2px #000;
+		text-align: center;
+		}
+
+	td{
+		padding: 5px;
+	}
+	table
+	{border-collapse: collapse;
+	width: 75%;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8em;
+	}
+
+</style>
+</head>
+
+<body>
+
+<h2> Raccourcis clavier Windows les plus fréquents (à connaître par cœur de préférence)</h2>
+
+<br />
+<h3>...généraux</h3>
+<ul>
+<li>ALT 0160 	&nbsp;&nbsp;&nbsp;&nbsp;	(espace insécable)</li> 
+<li>ALT 0150	&nbsp;&nbsp;&nbsp;&nbsp;	(–) </li>
+<li>ALT 0151	&nbsp;&nbsp;&nbsp;&nbsp;	(—) </li></ul>
+
+<h2>À propos de l'espace insécable</h2>
+<p>La combinaison de touches pour l'espace insécable n'est parfois pas prise en compte par certains outils de TAO et certains CMS.<br />- En TAO : rechercher la fonctionnalité propre au logiciel 
+utilisé. <br />- En CMS : ajouter l'espace insécable directement dans l'éditeur HTML. 
+Le caractère HTML "espace insécable" (<i>non-breaking space</i>) est&nbsp;: 
+<img style="vertical-align: text-top;" src="../images/non-breaking-space-HTML-character.jpg"></p>
+<p> L'espace fine insécable peut être préférée à l'espace insécable traditionnelle, en particulier pour les signes de ponctuation française à caractère double hors ":" (! ? ; % ‰ « ») et pour les nombres (chiffres regroupés par trois en général, et pour les nombres de 4 chiffres seulement, pour lesquels elle est recommandée). Mais l'espace fine insécable n'existe pas sur les claviers d'ordinateur traditionnel, seulement sur les claviers bépo. Il est possible en revanche de l'insérer directement en HTML: <img style="vertical-align: text-top";" src="../images/espace-fine-insecable-HTML.JPG"</p>
+
+
+<br /><br />
+
+<table>
+			<caption> Les caractères spéciaux allemands </caption>
+
+<!-- en tête tableau--> <thead>
+			<tr>
+					<th> Raccourci </th>
+					<th> Caractère </th>
+					<th> Explication </th>
+				</tr>
+				</thead>
+
+<!-- corps tableau--><tbody>
+		
+				
+				<tr>
+					<td> ALT & 0132 </td>
+					<td style> „ </td>
+					<td> guillemets allemands ouvrants </td>
+				</tr>	
+				<tr>
+					<td> ALT & 0148 </td>
+					<td> ” </td>
+					<td> guillemets allemands fermants </td>
+				</tr>	
+				<tr>
+					<td> ALT & 225 </td>
+					<td> ß </td>
+					<td> Esszet </td>
+					
+				</tr>	
+</table>
+<br/> <br/> <br/>
+<table>
+			<caption> Les caractères spéciaux français </caption>
+
+<!-- en tête tableau--> <thead>
+			<tr>
+					<th> Raccourci </th>
+					<th> Caractère </th>
+					<th> Explication </th>
+				</tr>
+				</thead>
+
+<!-- corps tableau--><tbody>
+		
+				
+				<tr>
+					<td> ALT 0156 </td>
+					<td> œ </td>
+					<td> o “e dans l’o” </td>
+				</tr>	
+				<tr>
+					<td> ALT 144 </td>
+					<td> É </td>
+					<td> "é" majuscule </td>
+				</tr>	
+				<tr>
+					<td> ALT 183 </td>
+					<td> À </td>
+					<td> "à" majuscule </td>
+				</tr>							
+				<tr>
+					<td> ALT 128 </td>
+					<td> Ç </td>
+					<td> "ç" majuscule </td>
+				</tr>		
+				<tr>
+					<td> ALT 182 </td>
+					<td> Â </td>
+					<td> "â" majuscule </td>
+				</tr>
+					<tr>
+					<td> ALT 137 </td>
+					<td> ‰ </td>
+					<td> "pour mille" </td>
+				</tr>							
+				<tr>
+					<td> ALT 0171 </td>
+					<td> « </td>
+					<td> guillemets français ouvrants </td>
+				</tr>	
+				<tr>
+					<td> ALT 0187 </td>
+					<td> » </td>
+					<td> guillemets français fermants </td>
+				</tr>	
+				<tr>
+					<td> ALT 0230 </td>
+					<td> æ </td>
+					<td> e dans l’a </td>
+				</tr>
+					
+				</tr>	</tbody>
+			</table>
+
+
+<h2> Références (Mac, Windows, Linux)</h2>
+
+<p>https://typefacts.com/artikel/tastaturkuerzel</p>
+<p> https://fr.wikipedia.org/wiki/Aide:Caract%C3%A8res_sp%C3%A9ciaux_probl%C3%A9matiques Page Wikipédia sur les caractères spéciaux français et l'usage de l'espace insécable (laisser de côté les consignes de formatage via les {{modèles}} destinés à la rédaction sur Wikipédia, le reste est utile.) </p>
+https://fr.wikipedia.org/wiki/Espace_fine_ins%C3%A9cable
+https://fr.wikipedia.org/wiki/Pour_mille Wikipédia à propos de quand utiliser le signe "‰"
+
+</p>
+
+<br /><br />
+
+<p> Voir aussi : <a href="../other-pages/texts-with-images.html">textes et images</a>, <br />
+<a href="../home.html">Retour au menu</a> </p>
+<br />
+
+
+
+
+
+
+
+<br /><br />
+
+
+<!-- FOOTER : c'est une nouveauté HTML5. Il peut contenir notamment le nouveau tag "address", qui sert à indiquer une référence de contact liée à la page -->
+<hr />
+<footer style="font-size:14px; color:black;">
+<p> Auteur et Contact :</p>
+<!-- à modifier bien sûr !-->
+<adress>
+Cette page a été rédigée par <a href="https://fr.linkedin.com/in/juliette-bruyant-056082181">Juliette Bruyant</a>. <br />Vous pouvez me contacter <a href="mailto:juliettebruyant@yahoo.fr">par e-mail</a>.
+</adress>
+</footer>
+<br /><br /><br />
+<p style="text-align:center;"><img src="../images/puce-decorative.jpg" alt="" height="80px"><p>
+
+
+</body>
+
+</html>
+
